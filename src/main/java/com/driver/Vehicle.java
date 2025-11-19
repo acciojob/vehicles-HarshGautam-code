@@ -10,6 +10,7 @@ public class Vehicle {
         this.name = name;
     }
 
+
     public String getName() {
         return name;
     }
@@ -38,6 +39,7 @@ public class Vehicle {
         System.out.println("stop method called - The vehicle is stopped");
     }
 
+
     public int getCurrentDirection() {
         return currentDirection;
     }
@@ -45,5 +47,14 @@ public class Vehicle {
     public int getCurrentSpeed() {
         return currentSpeed;
     }
+
+    public void setCurrentSpeed(int speed){
+        this.currentSpeed = speed;
+    }
+
+    public void setCurrentDirection(int direction){
+        this.currentDirection = direction;
+    }
+
 
 }

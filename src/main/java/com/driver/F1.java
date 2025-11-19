@@ -27,6 +27,7 @@ public class F1 extends Car {
             //Stop the car, set gear as 1
             stop();
             setCurrentGear(1);
+            return;
         }
         //for all other cases, change the gear accordingly
 
